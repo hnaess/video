@@ -10,7 +10,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("home_hero.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body, html {
   color: white;
 }
 
-.hero-text button {
+.hero-text-btn {
   border: none;
   outline: 0;
   display: inline-block;
@@ -38,7 +38,7 @@ body, html {
   cursor: pointer;
 }
 
-.hero-text button:hover {
+.hero-text-btn:hover {
   background-color: #555;
   color: white;
 }
@@ -48,13 +48,17 @@ body, html {
 
 <div class="hero-image">
   <div class="hero-text">
-    <h1 style="font-size:50px">I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
+    <h1 style="font-size:50px">Bilder og video</h1>
+    <p>meste krever innlogging</p>
+
+    <a class="hero-text-btn" href="vg.no">
+       <img src="video.png" /> Video</a>
+
+        <a class="hero-text-btn" href="vg.no">
+       <img src="photo.png" />Foto</a>
+
   </div>
 </div>
-
-<p>Page Content..</p>
 
 </body>
 </html>
